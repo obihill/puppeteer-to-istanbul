@@ -50,7 +50,7 @@ Here are the available options:
 
 | Option name | Description | Type | Default |
 | ----------- | ----------- | ---- | ------- |
-| `output_dir` | Directory to output coverage information | `String` | `./.nyc_output` |
+| `output_dir` | Directory to output coverage information. Note that it should be relative to the current working directory | `String` | `./.nyc_output` |
 | `backup` | Define backup characteristics for coverage files. If true, will backup existing files. | `Boolean` | `false` |
 
 
